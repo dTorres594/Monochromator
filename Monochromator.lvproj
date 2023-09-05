@@ -17,6 +17,7 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Monochromator API.vi" Type="VI" URL="../Libraries/Monochromator/Test Monochromator API.vi"/>
 		</Item>
+		<Item Name="HL Data.ctl" Type="VI" URL="../Libraries/Monochromator/Support/HL Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

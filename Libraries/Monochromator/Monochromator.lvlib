@@ -26,6 +26,11 @@
 				<Item Name="Move Argument--cluster.ctl" Type="VI" URL="../Move Argument--cluster.ctl"/>
 				<Item Name="Read continuously Argument--cluster.ctl" Type="VI" URL="../Read continuously Argument--cluster.ctl"/>
 				<Item Name="Stop continous reading Argument--cluster.ctl" Type="VI" URL="../Stop continous reading Argument--cluster.ctl"/>
+				<Item Name="Stop movement Argument--cluster.ctl" Type="VI" URL="../Stop movement Argument--cluster.ctl"/>
+				<Item Name="Ask position Argument--cluster.ctl" Type="VI" URL="../Ask position Argument--cluster.ctl"/>
+				<Item Name="Ask position (Reply Payload)--cluster.ctl" Type="VI" URL="../Ask position (Reply Payload)--cluster.ctl"/>
+				<Item Name="Position reached Argument--cluster.ctl" Type="VI" URL="../Position reached Argument--cluster.ctl"/>
+				<Item Name="Position reached (Reply Payload)--cluster.ctl" Type="VI" URL="../Position reached (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -46,6 +51,9 @@
 			<Item Name="Move.vi" Type="VI" URL="../Move.vi"/>
 			<Item Name="Read continuously.vi" Type="VI" URL="../Read continuously.vi"/>
 			<Item Name="Stop continous reading.vi" Type="VI" URL="../Stop continous reading.vi"/>
+			<Item Name="Stop movement.vi" Type="VI" URL="../Stop movement.vi"/>
+			<Item Name="Ask position.vi" Type="VI" URL="../Ask position.vi"/>
+			<Item Name="Position reached.vi" Type="VI" URL="../Position reached.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -127,6 +135,8 @@
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Initialize.vi" Type="VI" URL="../Support/Initialize.vi"/>
+		<Item Name="Read position -- subVI.vi" Type="VI" URL="../Support/Read position -- subVI.vi"/>
+		<Item Name="Read endstop.vi" Type="VI" URL="../Support/Read endstop.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
