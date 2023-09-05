@@ -24,12 +24,15 @@
 				<Item Name="Connect Argument--cluster.ctl" Type="VI" URL="../Connect Argument--cluster.ctl"/>
 				<Item Name="Connect (Reply Payload)--cluster.ctl" Type="VI" URL="../Connect (Reply Payload)--cluster.ctl"/>
 				<Item Name="Move Argument--cluster.ctl" Type="VI" URL="../Move Argument--cluster.ctl"/>
+				<Item Name="Read continuously Argument--cluster.ctl" Type="VI" URL="../Read continuously Argument--cluster.ctl"/>
+				<Item Name="Stop continous reading Argument--cluster.ctl" Type="VI" URL="../Stop continous reading Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Helper Loop Status Updated Argument--cluster.ctl" Type="VI" URL="../Helper Loop Status Updated Argument--cluster.ctl"/>
+				<Item Name="Data read Argument--cluster.ctl" Type="VI" URL="../Data read Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -41,6 +44,8 @@
 			<Item Name="Remove Panel from Subpanel.vi" Type="VI" URL="../Remove Panel from Subpanel.vi"/>
 			<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
 			<Item Name="Move.vi" Type="VI" URL="../Move.vi"/>
+			<Item Name="Read continuously.vi" Type="VI" URL="../Read continuously.vi"/>
+			<Item Name="Stop continous reading.vi" Type="VI" URL="../Stop continous reading.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -59,6 +64,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Helper Loop Status Updated.vi" Type="VI" URL="../Helper Loop Status Updated.vi"/>
+		<Item Name="Data read.vi" Type="VI" URL="../Data read.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -119,8 +125,10 @@
 	<Item Name="Local Events" Type="Folder">
 		<Item Name="Local Events.lvlib" Type="Library" URL="../Local Events/Local Events.lvlib"/>
 	</Item>
+	<Item Name="Support" Type="Folder">
+		<Item Name="Initialize.vi" Type="VI" URL="../Support/Initialize.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Initialize.vi" Type="VI" URL="../Support/Initialize.vi"/>
 </Library>
