@@ -31,6 +31,9 @@
 				<Item Name="Ask position (Reply Payload)--cluster.ctl" Type="VI" URL="../Ask position (Reply Payload)--cluster.ctl"/>
 				<Item Name="Position reached Argument--cluster.ctl" Type="VI" URL="../Position reached Argument--cluster.ctl"/>
 				<Item Name="Position reached (Reply Payload)--cluster.ctl" Type="VI" URL="../Position reached (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set speed Argument--cluster.ctl" Type="VI" URL="../Set speed Argument--cluster.ctl"/>
+				<Item Name="Get speed Argument--cluster.ctl" Type="VI" URL="../Get speed Argument--cluster.ctl"/>
+				<Item Name="Get speed (Reply Payload)--cluster.ctl" Type="VI" URL="../Get speed (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -54,6 +57,8 @@
 			<Item Name="Stop movement.vi" Type="VI" URL="../Stop movement.vi"/>
 			<Item Name="Ask position.vi" Type="VI" URL="../Ask position.vi"/>
 			<Item Name="Position reached.vi" Type="VI" URL="../Position reached.vi"/>
+			<Item Name="Set speed.vi" Type="VI" URL="../Set speed.vi"/>
+			<Item Name="Get speed.vi" Type="VI" URL="../Get speed.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -138,6 +143,7 @@
 		<Item Name="Read position -- subVI.vi" Type="VI" URL="../Support/Read position -- subVI.vi"/>
 		<Item Name="Read endstop.vi" Type="VI" URL="../Support/Read endstop.vi"/>
 		<Item Name="HL Data.ctl" Type="VI" URL="../Support/HL Data.ctl"/>
+		<Item Name="Read speed.vi" Type="VI" URL="../Support/Read speed.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
