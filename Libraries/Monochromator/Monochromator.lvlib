@@ -137,6 +137,7 @@
 		<Item Name="Initialize.vi" Type="VI" URL="../Support/Initialize.vi"/>
 		<Item Name="Read position -- subVI.vi" Type="VI" URL="../Support/Read position -- subVI.vi"/>
 		<Item Name="Read endstop.vi" Type="VI" URL="../Support/Read endstop.vi"/>
+		<Item Name="HL Data.ctl" Type="VI" URL="../Support/HL Data.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
