@@ -34,6 +34,7 @@
 				<Item Name="Set speed Argument--cluster.ctl" Type="VI" URL="../Set speed Argument--cluster.ctl"/>
 				<Item Name="Get speed Argument--cluster.ctl" Type="VI" URL="../Get speed Argument--cluster.ctl"/>
 				<Item Name="Get speed (Reply Payload)--cluster.ctl" Type="VI" URL="../Get speed (Reply Payload)--cluster.ctl"/>
+				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -59,6 +60,7 @@
 			<Item Name="Position reached.vi" Type="VI" URL="../Position reached.vi"/>
 			<Item Name="Set speed.vi" Type="VI" URL="../Set speed.vi"/>
 			<Item Name="Get speed.vi" Type="VI" URL="../Get speed.vi"/>
+			<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
