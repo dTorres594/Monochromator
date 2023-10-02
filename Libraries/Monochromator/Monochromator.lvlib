@@ -149,6 +149,7 @@
 		<Item Name="HL Data.ctl" Type="VI" URL="../Support/HL Data.ctl"/>
 		<Item Name="Read speed.vi" Type="VI" URL="../Support/Read speed.vi"/>
 		<Item Name="wait -- mono.vi" Type="VI" URL="../Support/wait -- mono.vi"/>
+		<Item Name="Move -- subVI.vi" Type="VI" URL="../Support/Move -- subVI.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
