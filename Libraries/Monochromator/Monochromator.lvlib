@@ -43,6 +43,7 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Helper Loop Status Updated Argument--cluster.ctl" Type="VI" URL="../Helper Loop Status Updated Argument--cluster.ctl"/>
 				<Item Name="Data read Argument--cluster.ctl" Type="VI" URL="../Data read Argument--cluster.ctl"/>
+				<Item Name="GOTO ended Argument--cluster.ctl" Type="VI" URL="../GOTO ended Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -82,6 +83,7 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Helper Loop Status Updated.vi" Type="VI" URL="../Helper Loop Status Updated.vi"/>
 		<Item Name="Data read.vi" Type="VI" URL="../Data read.vi"/>
+		<Item Name="GOTO ended.vi" Type="VI" URL="../GOTO ended.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -150,6 +152,13 @@
 		<Item Name="Read speed.vi" Type="VI" URL="../Support/Read speed.vi"/>
 		<Item Name="wait -- mono.vi" Type="VI" URL="../Support/wait -- mono.vi"/>
 		<Item Name="Move -- subVI.vi" Type="VI" URL="../Support/Move -- subVI.vi"/>
+		<Item Name="Move (GOTO) -- subVI.vi" Type="VI" URL="../Support/Move (GOTO) -- subVI.vi"/>
+	</Item>
+	<Item Name="3rd party" Type="Folder">
+		<Item Name="SP-2500i.ino" Type="Document" URL="../../../3rd party/SP-2500i/SP-2500i.ino"/>
+	</Item>
+	<Item Name="Documentation" Type="Folder">
+		<Item Name="SP-2500i.pdf" Type="Document" URL="../../../Datasheets/SP-2500i.pdf"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
