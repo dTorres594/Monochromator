@@ -36,6 +36,7 @@
 				<Item Name="Get speed (Reply Payload)--cluster.ctl" Type="VI" URL="../Get speed (Reply Payload)--cluster.ctl"/>
 				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
 				<Item Name="Move (GOTO) Argument--cluster.ctl" Type="VI" URL="../Move (GOTO) Argument--cluster.ctl"/>
+				<Item Name="Move (GOTO) (Reply Payload)--cluster.ctl" Type="VI" URL="../Move (GOTO) (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
